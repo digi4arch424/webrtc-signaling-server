@@ -1,0 +1,16 @@
+{
+  "name": "webrtc-signaling-server",
+  "version": "1.0.0",
+  "description": "General purpose WebRTC signaling server — SDP and ICE relay via WebSocket",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.16.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
